@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>หน่วยที่ 2 การใช้โปรแกรมระบบปฏิบัติการ</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body table tr td table tr td {
+	color: #FFF;
+}
+body {
+	background-color: #99F;
+}
+body table tr td table tr td {
+	color: #FFF;
+	font-family: Lonney;
+}
+.ตัวอักษร {
+	color: #000;
+}
+.ตัวอักษร marquee {
+	font-size: 18px;
+}
+.ตัวอักษร marquee {
+	font-size: 36px;
+}
+.ตัวอักษร marquee {
+	font-size: 24px;
+	font-family: Lonney;
+	color: #006;
+}
+.ฟอนต์ {
+	font-family: Lonney;
+}
+.สี {
+	color: #FFF;
+}
+.สี {
+	color: #FFF;
+}
+.ตัวอักษร .สี {
+	color: #FFF;
+}
+เนื้อหา {
+	color: #000;
+}
+body p {
+	color: #000;
+}
+.หน้าถัดไป {
+	color: #00F;
+	font-size: 36px;
+}
+.สี1 {	color: #FFF;
+}
+.สี1 {	color: #FFF;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {
+	color: #FFF;
+}
+.ตัวอักษร .สี {
+	color: #FFF;
+}
+.ห {
+	color: #000;
+	text-align: center;
+}
+.ห {
+	color: #000;
+}
+.ห {
+	color: #000;
+}
+.ห {
+	color: #000;
+	font-size: 24px;
+}
+.ขนาด {
+	font-size: 36px;
+	color: #000;
+}
+.style1 {font-size: 24px}
+.style2 {color: #000; font-size: 24px; text-align: center; }
+.style3 {color: #FF0000}
+</style>
+</head>
+
+<body onload="MM_preloadImages('Image/Button/ปุ่ม_01.gif','Image/Button/ปุ่ม_02.gif','Image/Button/ปุ่ม_03.gif','Image/Button/ปุ่ม_04.gif','Image/Button/ปุ่ม_05.gif','Image/Button/ปุ่ม_06.gif','Image/HeadFoot/oo.jpg')">
+<table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><img src="Image/HeadFoot/Head1.jpg" width="1024" height="400" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="Index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','Image/Button/ปุ่ม_01.gif',1)"><img src="Image/Button/2_01.gif" width="154" height="60" id="Image2" /></a><a href="lesson.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','Image/Button/ปุ่ม_02.gif',1)"><img src="Image/Button/2_02.gif" width="167" height="60" id="Image3" /></a><a href="exercise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','Image/Button/ปุ่ม_03.gif',1)"><img src="Image/Button/2_03.gif" width="190" height="60" id="Image4" /></a><a href="sheet.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','Image/Button/ปุ่ม_04.gif',1)"><img src="Image/Button/2_04.gif" width="149" height="60" id="Image5" /></a><a href="History.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','Image/Button/ปุ่ม_05.gif',1)"><img src="Image/Button/2_05.gif" width="228" height="60" id="Image6" /></a><a href="https://classroom.google.com/c/NTA0NzA2Mjg0NTQx?cjc=fd3zu6h" target="_blank" onmouseover="MM_swapImage('Image7','','Image/Button/ปุ่ม_06.gif',1)" onmouseout="MM_swapImgRestore()"><img src="Image/Button/2_06.gif" width="136" height="60" id="Image7" /></a></td>
+  </tr>
+  <tr valign="top">
+    &nbsp;</td>
+    <td width="797" bgcolor="#FFFFFF"><table width="1024" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="1024" valign="top" bgcolor="#CC0000" class="ตัวอักษร"><marquee direction="left" class="สี">
+           ***...<span class="สี1">หน่วยที่ 2 การใช้โปรแกรมระบบปฏิบัติการ</span>...***
+        </marquee></td>
+      </tr>
+      <tr>
+        <td valign="top"><p class="style1"><span class="style3">&nbsp;&nbsp; 5.การทำงานกับไดรฟ์ ไฟล์และโฟลเดอร์</span><br />
+         &nbsp; การจัดเก็บข้อมูลในเครื่องคอมพิวเตอร์<br />
+         &nbsp;&nbsp;
+เครื่องคอมพิวเตอร์จะทำหน้าที่จัดเก็บเอกสารข้อมูลต่าง ๆ เป็นจำนวนมาก ซึ่งเปรียบได้กับตู้เก็บเอกสารขนาดใหญ่ที่มีลิ้นซักอยู่หลาย ๆ ชั้น เพื่อใช้เก็บเอกสารให้เป็นระเบียบ</p>
+          <table width="800" border="0" align="center">
+            <tr>
+              <td align="center" class="style2"><img src="Image/17.jpg" width="300" height="200" /><br /></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#FFCCFF" class="style1"><span class="ห"> ไฟล์ (File) คือ เอกสารที่ใช้เก็บข้อมูลเรื่องต่าง ๆ เอาไว้ในเครื่องคอมพิวเตอร์</span></td>
+            </tr>
+            <tr>
+              <td align="center" class="style1"><img src="Image/18.jpg" width="300" height="200" /></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#FFCCFF" class="style2">โฟลเดอร์ (Folder) คือ แฟ้มที่ใช้เก็บไฟล์เพื่อความสะดวกในการจัดหมวดหมู่</td>
+            </tr>
+            <tr>
+              <td align="center" class="style1"><img src="Image/19.jpg" width="300" height="200" /></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#FFCCFF" class="style2">ไดรฟ์ (Drive) คือ พื้นที่เก็บเอกสารต่าง ๆ ไม่ว่าจะเป็นไฟล์ข้อมูลหรือโฟลเดอร์</td>
+            </tr>
+          </table>
+          <p class="style1"><br />
+           &nbsp; การจัดการไฟล์และโฟลเดอร์ด้วย This PC<br />
+           &nbsp;&nbsp; This PC เป็นเครื่องมือหนึ่งของตัวจัดการไฟล์ (File Explorer) ที่ใช้ในการเข้าไปค้นหาส่งต่าง ๆ ที่อยู่ในเครื่องคอมพิวเตอร์ การเรียกใช้ This PC สามารถทำได้หลายวิธี ดังนี้<br />
+            วิธีที่ 1 ดับเบิลคลิกที่ไอคอน This PC บนพื้นเดสก์ท็อป<br />
+            วิธีที่ 2 ใช้ปุ่ม Start คลิกที่ปุ่ม Start-เลือนลงมาที่ Windows System แล้วกดขยายออกมา-คลิกเมาส์ที่ This PC <br />
+            วิธีที่ 3 ใช้ปุ่ม Search Windows คลิกที่ปุ่มSearch Windows-พิมพ์ This PC แล้วกดปุ่ม Enter </p>
+          <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/FqT9Gh65Aqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>&nbsp;</p>
+          <table width="800" border="0" align="center">
+            <tr>
+              <td align="center" class="ขนาด"><a href="lesson22.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','Image/HeadFoot/oo.jpg',1)"><img src="Image/HeadFoot/O.jpg" name="Image12" width="200" height="65" border="0" id="Image12" /></a></td>
+            </tr>
+          </table>
+          <p><br />
+          </p></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="Image/HeadFoot/Foot.jpg" width="1024" height="150" usemap="#Map" border="0" /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="169,4,834,108" href="https://www.facebook.com/iampctc" target="_blank" />
+</map>
+</body>
+</html>

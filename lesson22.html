@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>หน่วยที่ 2 การใช้โปรแกรมระบบปฏิบัติการ</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body table tr td table tr td {
+	color: #FFF;
+}
+body {
+	background-color: #99F;
+}
+body table tr td table tr td {
+	color: #FFF;
+	font-family: Lonney;
+}
+.ตัวอักษร {
+	color: #000;
+}
+.ตัวอักษร marquee {
+	font-size: 18px;
+}
+.ตัวอักษร marquee {
+	font-size: 36px;
+}
+.ตัวอักษร marquee {
+	font-size: 24px;
+	font-family: Lonney;
+	color: #006;
+}
+.ฟอนต์ {
+	font-family: Lonney;
+}
+.สี {
+	color: #FFF;
+}
+.สี {
+	color: #FFF;
+}
+.ตัวอักษร .สี {
+	color: #FFF;
+}
+เนื้อหา {
+	color: #000;
+}
+body p {
+	color: #000;
+	font-size: 24px;
+}
+.หน้าถัดไป {
+	color: #00F;
+	font-size: 36px;
+}
+.สี1 {	color: #FFF;
+}
+.สี1 {	color: #FFF;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {	color: #00F;
+}
+.สี1 {
+	color: #FFF;
+}
+.ย่อ {
+	color: #F00;
+	font-weight: bold;
+}
+.ย่อ {
+	color: #000;
+}
+.ย่อ {
+	color: #000;
+	font-weight: normal;
+}
+.ย่อ {
+	color: #000;
+	text-align: left;
+}
+.สี {
+	color: #000;
+}
+.สี {
+	color: #000;
+	font-size: 36px;
+}
+.ส {
+	color: #000;
+	font-size: 36px;
+}
+.style1 {color: #FF0000}
+</style>
+</head>
+
+<body onload="MM_preloadImages('Image/Button/ปุ่ม_01.gif','Image/Button/ปุ่ม_02.gif','Image/Button/ปุ่ม_03.gif','Image/Button/ปุ่ม_04.gif','Image/Button/ปุ่ม_05.gif','Image/Button/ปุ่ม_06.gif','Image/HeadFoot/oo.jpg','Image/HeadFoot/rr.jpg')">
+<table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><img src="Image/HeadFoot/Head1.jpg" width="1024" height="400" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="Index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','Image/Button/ปุ่ม_01.gif',1)"><img src="Image/Button/2_01.gif" width="154" height="60" id="Image2" /></a><a href="lesson.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','Image/Button/ปุ่ม_02.gif',1)"><img src="Image/Button/2_02.gif" width="167" height="60" id="Image3" /></a><a href="exercise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','Image/Button/ปุ่ม_03.gif',1)"><img src="Image/Button/2_03.gif" width="190" height="60" id="Image4" /></a><a href="sheet.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','Image/Button/ปุ่ม_04.gif',1)"><img src="Image/Button/2_04.gif" width="149" height="60" id="Image5" /></a><a href="History.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','Image/Button/ปุ่ม_05.gif',1)"><img src="Image/Button/2_05.gif" width="228" height="60" id="Image6" /></a><a href="https://classroom.google.com/c/NTA0NzA2Mjg0NTQx?cjc=fd3zu6h" target="_blank" onmouseover="MM_swapImage('Image7','','Image/Button/ปุ่ม_06.gif',1)" onmouseout="MM_swapImgRestore()"><img src="Image/Button/2_06.gif" width="136" height="60" id="Image7" /></a></td>
+  </tr>
+  <tr valign="top">
+    &nbsp;</td>
+    <td width="797" bgcolor="#FFFFFF"><table width="1024" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="1024" valign="top" bgcolor="#CC0000" class="ตัวอักษร"><marquee direction="left" class="สี">
+           ***...<span class="สี1">หน่วยที่ 2 การใช้โปรแกรมระบบปฏิบัติการ</span>...***
+        </marquee></td>
+      </tr>
+      <tr>
+        <td height="2482" valign="top" bgcolor="#FFFFFF"><p>&nbsp;การคลิกเมาส์ (Click) <br />
+           &nbsp;&nbsp; การคลิกเมาส์ คือ การใช้นิ้วชี้เคาะบนปุ่มซ้าย 1 ครั้ง แล้วปล่อยนิ้ว เพื่อใช้เลือกวัตถุหรือคำสั่งต่าง ๆ ในหน้อจอวินโดวส์ ดังตัวอย่างการคลิกเมาส์ทำได้ดังนี้</p>
+          <p align="center"><img src="Image/14.jpg" width="300" height="200" /></p>
+          <p class="ย่อ">1. เลื่อนตัวชี้เมาส์วางบนไอคอนรูปเครื่องคอมพิวเตอร์จะปรากฏกรอบล้อมรอบ<br />
+            2. คลิกเมาส์ปุ่มซ้าย 1 ครั้ง สังเกตไอคอนจะปรากฏสีที่เข้มขึ้น แสดงว่าไอคอนถูกเลือก</p>
+          <p class="ย่อ">&nbsp;การดับเบิลคลิกเมาส์ (Double Click)<br />
+           &nbsp;&nbsp; การดับเบิลคลิกเมาส์ คือ การใช้นิ้วชี้เคาะบนปุ่มซ้ายติดกัน 2 ครั้ง มักใช้ในกรณีเปิดโปรแกรมจากไอคอน ดังตัวอย่างการดับเบิลคลิกเมาส์ ดังนี้</p>
+          <p align="center"><img src="Image/15.jpg" width="500" height="400" /></p>
+          <p>1. เลื่อนคัวชี้เมาส์วางบนไอคอนรูปเคลื่องคอมพิวเตอร์จะปรากฏกรอบล้อมรอบ<br />
+2. ดับเบิลคลิกเมาส์ บนไอคอน This PC<br />
+3. สังเกตจะปรากฏหน้าต่าง This PC<br />
+4. คลิกปุ่ม X ปิดหน้าต่าง My Computer </p>
+          <p class="ย่อ">&nbsp;การแดรกเมาส์ หรือ ลากแล้วปล่อย (Drag and Drop)<br />
+         &nbsp;&nbsp; การแดรกเมาส์ คือ การใช้นิ้ชี้คลิกปุ่มเมาส์ด้านซ้ายไว้ แล้วเลื่อนเมาส์ไปในทิศทางที่ต้องการ แล้วปล่อยเมาส์ มักใช้เลือกวัตถุหลายชิ้น หรือเคลื่แนย้ายวัตถุไปยังตำแหน่งที่ต้องการ</p>
+          <p align="center" class="ย่อ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Image/16.jpg" width="700" height="200" /></p>
+          <p class="ย่อ">&nbsp;</p>
+          <p align="center" class="ย่อ"><span class="style1">&nbsp;&nbsp; 4. ส่วนประกอบพื้นฐานของหน้าต่างหรือวินโดวส์</span><br />
+           &nbsp;&nbsp;&nbsp;&nbsp; ส่วนประกอบต่าง ๆ ของหน้าต่างวินโดวส์มีส่วนประกอบสำคัญที่ควรทราบ ดังนี้ </p>
+          <p align="center" class="ย่อ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Image/6.jpg" width="560" height="309" /><br />
+            1. ไตเติ้ลบาร์ (Title Bar) แสดงชื่อของโปรแกรม แอป ตำแหน่งโฟลเดอร์หรือไฟล์ที่เปิดอยู่<br />
+            2. ปุ่มควบคุมหน้าต่าง (Caption Buttons) ปุ่มควบคุมหน้าต่างวินโดวส์ ซ่อน ย่อ/ขยาย ปิด<br />
+            3. เมนูไฟล์ (File Explorer Menu) แสดงคำสั่งที่ใช้ในการเปิดหน้าต่างใหม่ปรับแต่งโฟลเดอร์และการตั้งค่าต่าง ๆ <br />
+            4. แอดเดรสบาร์ (Address Bar) แถบที่อยู่ แสดงตำแหน่งที่อยู่แบบเส้นทาง<br />
+            5. ช่องค้นหา (Search Box) ค้นหาไฟล์ โฟลเดอร์ในเครื่องคอมพิวเตอร์<br />
+            6. แถบริบบอน (Ribbon Toolbar) แถบเครื่องมือที่จัดกลุ่มคำสั่งที่เกี่ยวข้องกันไว้เป็นหมวดหมู่<br />
+            7. ปุ่มการนำทาง (Navigation Button) แสดงทิศทางย้อนกลับ ไปข้างหน้า หรือเลือนตำแหน่งขึ้นของที่อยู่<br />
+            8. หน้าต่างนำทาง (Navigation Pane) หน้าต่างแสดงรายชื่อของโฟลเดอร์ ไฟล์ หรือไดรฟ์ เป็นต้น<br />
+            9. หน้าต่างแสดงข้อมูล (WindowContentPane) แสดงข้อมูลหรือเนื้อหาจากโฟลเดอร์หรือไดรฟ์ในหน้าต่างนำทาง<br />
+            10. แถบสถานะ (Status Bar) แสดงสถานะการทำงานของหน้าต่างวินโดวส์ </p>
+          <table width="1024" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th scope="row"><div align="center"><a href="L2.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','Image/HeadFoot/oo.jpg',1)"><img src="Image/HeadFoot/O.jpg" name="Image13" width="200" height="65" border="0" id="Image13" /></a></div></th>
+              <td><div align="center"><a href="lesson222.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','Image/HeadFoot/rr.jpg',1)"><img src="Image/HeadFoot/R.jpg" name="Image14" width="200" height="65" border="0" id="Image14" /></a></div></td>
+            </tr>
+          </table>
+          <p class="ย่อ"><br />
+          </p></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="Image/HeadFoot/Foot.jpg" width="1024" height="150" usemap="#Map" border="0" /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="163,4,841,106" href="https://www.facebook.com/iampctc" target="_blank" />
+</map>
+</body>
+</html>
